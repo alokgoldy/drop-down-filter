@@ -1,11 +1,11 @@
 import React from 'react'
 import './card.css';
 
-function Card({dataLab}) {
+function Card({myData}) {
     return (
-        <div className="container">
-            {dataLab.map((item) => {
-                return(<div className="card">
+        <div className="mycontainer">
+            {myData.map((item) => {
+                return(<div className="mycard">
                 <h3 style={{padding: "2px"}}>{item.name}</h3>
                 <h4 style={{padding: "2px"}}>Job: {item.job}</h4>
                 <h4 style={{padding: "2px"}}>Salary: {item.salary}</h4>

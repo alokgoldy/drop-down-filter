@@ -1,4 +1,4 @@
-.container{
+.mycontainer{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -6,11 +6,11 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.card {
+.mycard {
     width: 300px;
     height: 180px;
-    padding: 10px;
-    margin: 20px;
+    padding: 10px !important;;
+    margin: 20px !important;;
     border-radius: 20px;
     color: #fff;
     font-size: 15px;
@@ -21,5 +21,13 @@
     backdrop-filter: blur(10px);
     transition: .5s ease;
 }
-  
-  
+
+
+h4{
+    padding: 1px !important;
+    margin: 1px !important;
+}
+
+p{
+    margin-right: 5px  !important;
+}
